@@ -1,0 +1,71 @@
+ .second .card span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.second .card{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: aqua;
+    color: white;
+    border-radius: 10px;
+}
+.second .card h1{
+    font-size: 15px ;
+    font-weight: bold;
+}
+
+.second .card .cardlogo{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(253, 253, 253,0.5);
+}
+
+.second .card_container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.second{
+    box-sizing: border-box;
+    padding: 20px 100px 20px 100px;
+}
+
+.home2_container .home2_layer img{
+    max-width: 400px;
+}
+.home2_layer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.home2_layer div{
+    max-width:500px ;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.home2_layer div .icon_cont{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.home2_layer div .icon_cont .social{
+    width: 50px;
+    height: 50px;
+}
+
+.home2_container .payicon{
+    width: 50px;
+    height: 50px;
+}
